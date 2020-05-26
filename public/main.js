@@ -1,5 +1,5 @@
 
-let personas=[]
+
 const card = document.getElementById("root"); 
 
 

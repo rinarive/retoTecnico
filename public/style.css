@@ -4,8 +4,8 @@
     font-size:large;
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
     font-weight:200;
+    
   }
   html{
     scroll-behavior: smooth;
@@ -17,12 +17,12 @@
     padding: 0;
 
   }
-  .box{
+  .contenedor{
     background: url('https://github.com/rinarive/retoTecnico/blob/master/ChooseRoomate.jpg?raw=true') no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     display: flex;
-    flex-direction: row-reverse;
+
   }
 
 .init{   
@@ -68,11 +68,15 @@
   @media (max-width: 992px) and (max-width: 667px) {
     
     .middle {
-      margin-top: 200%;
-      margin-left: 31%;
+      padding: 5%;
+      margin-left:31%;
+     
+      align-content: flex-end;
+
       }
       .init {
         text-align: end;
-
+      
         }
+     
   }
