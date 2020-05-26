@@ -5,6 +5,7 @@
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
+    font-weight:200;
   }
   html{
     scroll-behavior: smooth;
@@ -16,34 +17,30 @@
     padding: 0;
 
   }
-  p{
-    font-weight:200;
-    font-family: 'Montserrat', sans-serif;
-  
-  }
-.imagen{   
+  .box{
     background: url('https://github.com/rinarive/retoTecnico/blob/master/ChooseRoomate.jpg?raw=true') no-repeat center center;
-    
     background-size: cover;
     min-height: 100vh;
     display: flex;
-  
+    flex-direction: row-reverse;
+  }
+
+.init{   
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    text-align: center;
+    width: max-content;
+    flex-wrap: wrap;
 }
 
-.container{
-    flex-direction: column;
-    width: 80%;
-    margin-top: 50vh,
-   
-}
+
 .middle {
+     margin-top: 60%;
+     margin-left: 60%;
+     padding: 3%;
     transition: .5s ease;
-    position: absolute;
-    top: 70%;
-    left: 70%;
     background-color: black;
-    width: 80%;
-    padding: 15%;
     opacity:0.5;
     border: black;
     border-radius: 20px;
@@ -61,9 +58,21 @@
       font-family: 'Montserrat', sans-serif;
 
   }
-  .element{
+  .elemento{
     display: flex;
-    width: max-content;
+    width: 90%;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+  }
+  @media (max-width: 992px) and (max-width: 667px) {
+    
+    .middle {
+      margin-top: 200%;
+      margin-left: 31%;
+      }
+      .init {
+        text-align: end;
+
+        }
   }
