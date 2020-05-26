@@ -1,0 +1,23 @@
+{
+  "name": "retotecnico",
+  "version": "1.0.0",
+  "description": "ecomsur",
+  "main": "main.js",
+  "dependencies": {
+    "bulma": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinarive/retoTecnico.git"
+  },
+  "author": "rena rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinarive/retoTecnico/issues"
+  },
+  "homepage": "https://github.com/rinarive/retoTecnico#readme"
+}
